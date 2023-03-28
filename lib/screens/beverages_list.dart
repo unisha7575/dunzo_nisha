@@ -232,7 +232,7 @@ class _BeveragesListState extends State<BeveragesList> {
                                           beverages[index].name,
                                           style: const TextStyle(
                                               fontWeight: FontWeight.w500,
-                                              fontSize: 20),
+                                              fontSize: 18),
                                         ),
                                         const SizedBox(
                                           height: 9,
@@ -289,7 +289,7 @@ class _BeveragesListState extends State<BeveragesList> {
                                                       "ADD",
                                                       style: TextStyle(
                                                           color: Colors.teal,
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w600),
                                                     )

@@ -95,8 +95,8 @@ class _InstantFoodViewState extends State<InstantFoodView> {
                 child: Text(
                   "the product Image shown are for representation purpose only .the actual product may vary.it is recommended to read the product label batch details,direction for use ,etc as contained in the actual product before consuming and utilize the product",
                   style: TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w500,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w400,
                       color: Colors.black54),
                 ),
               )

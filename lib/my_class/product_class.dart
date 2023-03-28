@@ -181,9 +181,11 @@ class MostPopular {
 class Category {
   String image;
   String name;
+  String route;
 
   Category({
     required this.image,
     required this.name,
+    required this.route
   });
 }

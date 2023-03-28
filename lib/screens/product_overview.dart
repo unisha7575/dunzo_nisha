@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../my_class/my_routes.dart';
 import '../my_class/products_list.dart';
+import '../typeahead_screen.dart';
 import 'category_screen.dart';
 
 class ProductOverview extends StatefulWidget {
@@ -63,7 +64,7 @@ class _ProductOverviewState extends State<ProductOverview> {
                         const Text(
                           "Dunzo Daily",
                           style: TextStyle(
-                              fontSize: 24,
+                              fontSize: 22,
                               fontWeight: FontWeight.w500,
                               color: Colors.white),
                         ),Spacer(),   Column(
@@ -71,7 +72,7 @@ class _ProductOverviewState extends State<ProductOverview> {
                             const Text(
                               "instant",
                               style: TextStyle(
-                                  fontSize: 15,
+                                  fontSize: 14,
                                   fontWeight: FontWeight.w500,
                                   color: Colors.greenAccent),
                             ),Row(
@@ -80,7 +81,7 @@ class _ProductOverviewState extends State<ProductOverview> {
                                 Text(
                                   "21 MINS",
                                   style: TextStyle(
-                                      fontSize: 18,
+                                      fontSize: 17,
                                       fontWeight: FontWeight.w500,
                                       color: Colors.white),
                                 ),
@@ -91,38 +92,48 @@ class _ProductOverviewState extends State<ProductOverview> {
                       ],
                     ),
                     const SizedBox(
-                      height: 8,
+                      height: 7,
                     ),
                     const Text(
                       " Groceries deliverd fresh and fast",
                       style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 15,
                           fontWeight: FontWeight.w300,
                           color: Colors.white),
                     ),
                     Padding(
                       padding: const EdgeInsets.only(top: 10),
-                      child: Container(
-                        decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(10)),
-                        child: Row(
-                          children: const [
-                            Padding(
-                              padding: EdgeInsets.only(left: 10, right: 15),
-                              child: Icon(Icons.search),
-                            ),
-                            SizedBox(
-                              height: 50,
-                              width: 300,
-                              child: TextField(
-                                decoration: InputDecoration(
-                                  border: InputBorder.none,
-                                  hintText: "Search for an item in Dunzo Daily",
+                      child: InkWell(
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>TypeAheadScreen()));
+                        },
+                        child: Container(
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(10)),
+                          child: Row(
+                            children: [
+                              Padding(
+                                padding: EdgeInsets.only(left: 10, right: 15),
+                                child: Icon(Icons.search),
+                              ),
+                              SizedBox(
+                                height: 50,
+                                width: 300,
+                                child: TextField(
+                                  onTap: (){
+                                    Navigator.push(context, MaterialPageRoute(builder: (context)=>TypeAheadScreen()));
+
+                                  },
+                                  enabled: false,
+                                  decoration: InputDecoration(
+                                    border: InputBorder.none,
+                                    hintText: "Search for an item in Dunzo Daily",
+                                  ),
                                 ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -160,9 +171,9 @@ class _ProductOverviewState extends State<ProductOverview> {
                 children: [
                   Row(
                     children: const [
-                      Text("Most Popular",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w500,fontSize: 18),),
+                      Text("Most Popular",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w500,fontSize: 17),),
                       Spacer(),
-                      Text("View All",style: TextStyle(color: Colors.green,fontWeight: FontWeight.w500,fontSize: 15),)
+                      Text("View All",style: TextStyle(color: Colors.green,fontWeight: FontWeight.w500,fontSize: 14),)
                     ],
                   ),
                   SingleChildScrollView(
@@ -190,9 +201,9 @@ class _ProductOverviewState extends State<ProductOverview> {
                                     Image.network(mostPopular[index].image,fit: BoxFit.fill,height: 70,width: 110,),
                                     Align(
                                         alignment: Alignment.topLeft,
-                                        child: Text(mostPopular[index].name,style: TextStyle(fontSize: 17,fontWeight: FontWeight.w500))),
+                                        child: Text(mostPopular[index].name,style: TextStyle(fontSize: 16,fontWeight: FontWeight.w500))),
                                     Text(mostPopular[index].weight,style: TextStyle(fontSize: 14,fontWeight: FontWeight.w500,color: Colors.black54)),
-                                    Text(" Rs ${mostPopular[index].price}",style: TextStyle(fontSize: 17,fontWeight: FontWeight.w500),),
+                                    Text(" Rs ${mostPopular[index].price}",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w500),),
                                   ],
                                 ),
 
@@ -206,7 +217,7 @@ class _ProductOverviewState extends State<ProductOverview> {
                   Divider(),
                   Align(
                       alignment: Alignment.topLeft,
-                      child: Text("Shop By Category",style: TextStyle(fontSize: 18,fontWeight: FontWeight.w500),)),
+                      child: Text("Shop By Category",style: TextStyle(fontSize: 17,fontWeight: FontWeight.w500),)),
                   CategoryScreen(),
                 ],
               ),

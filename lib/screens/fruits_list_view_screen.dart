@@ -232,7 +232,7 @@ class _FruitsListViewScreenState extends State<FruitsListViewScreen> {
                                           fruits[index].name,
                                           style: const TextStyle(
                                               fontWeight: FontWeight.w500,
-                                              fontSize: 20),
+                                              fontSize: 18),
                                         ),
                                         const SizedBox(
                                           height: 9,
@@ -241,7 +241,7 @@ class _FruitsListViewScreenState extends State<FruitsListViewScreen> {
                                           fruits[index].weight,
                                           style: const TextStyle(
                                               fontWeight: FontWeight.w500,
-                                              fontSize: 17,
+                                              fontSize: 15,
                                               color: Colors.black54),
                                         ),
                                         const SizedBox(
@@ -289,7 +289,7 @@ class _FruitsListViewScreenState extends State<FruitsListViewScreen> {
                                                       "ADD",
                                                       style: TextStyle(
                                                           color: Colors.teal,
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                               FontWeight.w600),
                                                     )

@@ -1,3 +1,4 @@
+import 'package:dunzo_nisha/my_class/my_routes.dart';
 
 import 'product_class.dart';
 
@@ -60,7 +61,8 @@ List<Vegetables> vegetables = <Vegetables>[
       description:
           'the product images shown are for representation purpose only. the actual product may vary.'),
   Vegetables(
-      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhK4rEP6DuVXgvzUvczKFH9hmA9kuQi2cy-_zo2TI2Ow4hPu1UBrMcevXay_ClGxv3srU&usqp=CAU",
+      image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhK4rEP6DuVXgvzUvczKFH9hmA9kuQi2cy-_zo2TI2Ow4hPu1UBrMcevXay_ClGxv3srU&usqp=CAU",
       name: 'cabbage',
       weight: '1kg',
       price: '20',
@@ -272,59 +274,82 @@ List<CleaningHousehold> cleaningHousehold = <CleaningHousehold>[
 ];
 
 List<PetCare> petCare = <PetCare>[
-  PetCare( image:"https://dojiw2m9tvv09.cloudfront.net/28201/product/moisturizing-conditioner6327.jpg",
+  PetCare(
+    image:
+        "https://dojiw2m9tvv09.cloudfront.net/28201/product/moisturizing-conditioner6327.jpg",
     name: ' Moisturizing ',
     weight: '200ml',
     price: '100',
-    description:  'the product images shown are for representation purpose only. the actual product may vary.',
-),
-  PetCare( image:"https://naturalcarepets.com/sites/default/files/2020-08/40112_Alt_Main.png",
+    description:
+        'the product images shown are for representation purpose only. the actual product may vary.',
+  ),
+  PetCare(
+    image:
+        "https://naturalcarepets.com/sites/default/files/2020-08/40112_Alt_Main.png",
     name: ' Spary ',
     weight: '150',
     price: '200',
-    description:  'the product images shown are for representation purpose only. the actual product may vary.',
-),
-  PetCare( image:"http://cdn.shopify.com/s/files/1/0086/0795/7054/products/PETCARENutri-CoatAdvanceConcentratedFattyAcidsSupplementforDogs_Kittens.jpg?v=1638350784",
+    description:
+        'the product images shown are for representation purpose only. the actual product may vary.',
+  ),
+  PetCare(
+    image:
+        "http://cdn.shopify.com/s/files/1/0086/0795/7054/products/PETCARENutri-CoatAdvanceConcentratedFattyAcidsSupplementforDogs_Kittens.jpg?v=1638350784",
     name: 'Fatty Acid ',
     weight: '1l',
     price: '200',
-    description:  'the product images shown are for representation purpose only. the actual product may vary.',
-),
-  PetCare( image:"https://img.etimg.com/thumb/msid-19400511,width-1200,height-900,imgsize-12890,overlay-etrise/photo.jpg",
+    description:
+        'the product images shown are for representation purpose only. the actual product may vary.',
+  ),
+  PetCare(
+    image:
+        "https://img.etimg.com/thumb/msid-19400511,width-1200,height-900,imgsize-12890,overlay-etrise/photo.jpg",
     name: ' Seeds ',
     weight: '100gms',
     price: '100',
-    description:  'the product images shown are for representation purpose only. the actual product may vary.',
-),
+    description:
+        'the product images shown are for representation purpose only. the actual product may vary.',
+  ),
 ];
 
 List<BabyCare> babyCare = <BabyCare>[
-  BabyCare( image:"http://cdn.shopify.com/s/files/1/0272/4714/9155/products/Baby-Powder.jpg?v=1622100469",
+  BabyCare(
+    image:
+        "http://cdn.shopify.com/s/files/1/0272/4714/9155/products/Baby-Powder.jpg?v=1622100469",
     name: ' Powder ',
     weight: '200gms',
     price: '200',
-    description:  'the product images shown are for representation purpose only. the actual product may vary.',
-),
-  BabyCare( image:"https://media.istockphoto.com/id/526495161/photo/baby-accessories.jpg?s=612x612&w=0&k=20&c=Ih0XCQLWwCjYVUBSzyWocEezTNqzl3_awW94zKQZrBI=",
+    description:
+        'the product images shown are for representation purpose only. the actual product may vary.',
+  ),
+  BabyCare(
+    image:
+        "https://media.istockphoto.com/id/526495161/photo/baby-accessories.jpg?s=612x612&w=0&k=20&c=Ih0XCQLWwCjYVUBSzyWocEezTNqzl3_awW94zKQZrBI=",
     name: ' shop ',
     weight: '150gms',
     price: '200',
-    description:  'the product images shown are for representation purpose only. the actual product may vary.',
-),
-  BabyCare( image:"https://www.merohealthcare.com/assets/images/6977-himalaya-baby-care-gift-basket.webp",
+    description:
+        'the product images shown are for representation purpose only. the actual product may vary.',
+  ),
+  BabyCare(
+    image:
+        "https://www.merohealthcare.com/assets/images/6977-himalaya-baby-care-gift-basket.webp",
     name: 'BabyCare product ',
     weight: '5pcs',
     price: '300',
-    description:  'the product images shown are for representation purpose only. the actual product may vary.',
-),
-  BabyCare( image:"https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.pigeon-in.com/wp-content/uploads/2022/04/Baby-Health-and-Hygine-1.jpg",
+    description:
+        'the product images shown are for representation purpose only. the actual product may vary.',
+  ),
+  BabyCare(
+    image:
+        "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.pigeon-in.com/wp-content/uploads/2022/04/Baby-Health-and-Hygine-1.jpg",
     name: 'loundary product',
     weight: '3pcs',
     price: '500',
-    description:  'the product images shown are for representation purpose only. the actual product may vary.',
-),
+    description:
+        'the product images shown are for representation purpose only. the actual product may vary.',
+  ),
 ];
-
 
 List<MostPopular> mostPopular = <MostPopular>[
   MostPopular(
@@ -383,50 +408,62 @@ List<Category> category = <Category>[
   Category(
       image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScBCcb3beLRsTGaQJAal3T_7rdbjL7bVJVpr0He1ieQydGVXahKzsz7yROkrxUlvXGn8I&usqp=CAU",
-      name: "vegetables"),
+      name: "vegetables",
+      route: MyRoutes.vegetableListViewScreen),
   Category(
       image:
           "https://img.freepik.com/premium-photo/composition-with-vegetables-fruits-wicker-basket-isolated_135427-2733.jpg",
-      name: "fresh fruits"),
+      name: "fresh fruits",
+      route: MyRoutes.fruitsListCategory),
   Category(
       image:
           "https://www.foodbusinessnews.net/-/media/7C8AE0166D544792B53A0994EF069286.ashx",
-      name: "Beverages"),
+      name: "Beverages",
+      route: MyRoutes.beveragesCategory),
   Category(
       image:
           "https://www.dairyreporter.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/food-beverage-nutrition/dairyreporter.com/news/retail-shopper-insights/pandemic-leads-to-more-consumption-of-dairy-products/12201507-1-eng-GB/Pandemic-leads-to-more-consumption-of-dairy-products.jpg",
-      name: "Dairy Products"),
+      name: "Dairy Products",
+      route: MyRoutes.dairyProductCategory),
   Category(
       image: "https://www.aashirvaad.com/img/instantmeal/upma/1.jpg",
-      name: "Istant Food"),
+      name: "Istant Food",
+      route: MyRoutes.instantFoodCategory),
   Category(
       image:
           "https://media.takealot.com/covers_images/848b5e9ad91b48f58e75a13e563497fb/s-pdpxl.file",
-      name: "Cleaning "),
+      name: "Cleaning ",
+      route: MyRoutes.cleaningHouseHoldCategory),
   Category(
       image:
           "https://images-cdn.ubuy.co.in/633febfc1b6738737669750e-frito-lay-ultimate-snacks-cookies.jpg",
-      name: "Snacks"),
+      name: "Snacks",
+      route: MyRoutes.snackCategory),
   Category(
       image:
           "https://www.jiomart.com/images/product/600x600/492338750/atta-dal-rice-combo-chakki-atta-5-kg-toor-dal-2-kg-surti-kolam-rice-2-kg-product-images-o492338750-p590318703-0-202203170848.jpg",
-      name: "Ata Dal"),
+      name: "Ata Dal",
+      route: MyRoutes.ataDalCategory),
   Category(
       image:
           "https://media.takealot.com/covers_images/848b5e9ad91b48f58e75a13e563497fb/s-pdpxl.file",
-      name: "Cleaning"),
+      name: "Cleaning",
+      route: MyRoutes.cleaningHouseHoldCategory),
   Category(
       image:
           "https://images-cdn.ubuy.co.in/633febfc1b6738737669750e-frito-lay-ultimate-snacks-cookies.jpg",
-      name: "Snacks"),
+      name: "Snacks",
+      route: MyRoutes.snackCategory),
   Category(
       image:
           "https://cdn.shopify.com/s/files/1/0272/4714/9155/products/gentle-gaby-shampoo.jpg?v=1622098947",
-      name: "Baby Care"),
+      name: "Baby Care",
+      route: MyRoutes.babyCareCategory),
   Category(
       image:
           "https://cdn.shopify.com/s/files/1/0579/2268/3054/products/BioDIGEST_200g_800x850_f1632c3a-f36a-4e99-876d-162322b75210_1600x.jpg?v=1661317321",
-      name: "Pet Care"),
+      name: "Pet Care",
+      route: MyRoutes.petCareListCategory),
 ];
 
 // ["vegetables","fruits","Beverages","Dairy Products","instant Food","CleaningHousehold","Snacks","AttaDal",];

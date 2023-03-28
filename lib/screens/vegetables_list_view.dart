@@ -234,7 +234,7 @@ class _VegetablesListViewState extends State<VegetablesListView> {
                                           vegetables[index].name,
                                           style: const TextStyle(
                                               fontWeight: FontWeight.w500,
-                                              fontSize: 20),
+                                              fontSize: 19),
                                         ),
                                         const SizedBox(
                                           height: 9,
@@ -243,7 +243,7 @@ class _VegetablesListViewState extends State<VegetablesListView> {
                                           vegetables[index].weight,
                                           style: const TextStyle(
                                               fontWeight: FontWeight.w500,
-                                              fontSize: 17,
+                                              fontSize: 16,
                                               color: Colors.black54),
                                         ),
                                         const SizedBox(
@@ -291,7 +291,7 @@ class _VegetablesListViewState extends State<VegetablesListView> {
                                                       "ADD",
                                                       style: TextStyle(
                                                           color: Colors.teal,
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w600),
                                                     )

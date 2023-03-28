@@ -65,15 +65,15 @@ android {
             storePassword keystoreProperties['storePassword']
         }
     }
-    splits {
-        abi {
-            enable true
-            reset()
-            universalApk false  // If true, also generate a universal APK
-            include "armeabi-v7a", "arm64-v8a", "x86"
-            //include "x86", "armeabi-v7a", "arm64-v8a", "x86_64"
-        }
-    }
+//    splits {
+//        abi {
+//            enable true
+//            reset()
+//            universalApk false  // If true, also generate a universal APK
+//            include "armeabi-v7a", "arm64-v8a", "x86"
+//            //include "x86", "armeabi-v7a", "arm64-v8a", "x86_64"
+//        }
+//    }
 
     buildTypes {
         release {

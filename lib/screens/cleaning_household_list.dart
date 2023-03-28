@@ -203,7 +203,8 @@ class _CleaningHouseHoldListState extends State<CleaningHouseHoldList> {
                             "image":cleaningHousehold[index].image ,
                             "price":cleaningHousehold[index].price ,
                             "weight":cleaningHousehold[index].weight ,
-                          });
+                          }
+                          );
                         },
                         child: Column(
                           children: [
@@ -231,7 +232,7 @@ class _CleaningHouseHoldListState extends State<CleaningHouseHoldList> {
                                           cleaningHousehold[index].name,
                                           style: const TextStyle(
                                               fontWeight: FontWeight.w500,
-                                              fontSize: 20),
+                                              fontSize: 18),
                                         ),
                                         const SizedBox(
                                           height: 9,
@@ -240,7 +241,7 @@ class _CleaningHouseHoldListState extends State<CleaningHouseHoldList> {
                                           cleaningHousehold[index].weight,
                                           style: const TextStyle(
                                               fontWeight: FontWeight.w500,
-                                              fontSize: 17,
+                                              fontSize: 16,
                                               color: Colors.black54),
                                         ),
                                         const SizedBox(
@@ -288,7 +289,7 @@ class _CleaningHouseHoldListState extends State<CleaningHouseHoldList> {
                                                       "ADD",
                                                       style: TextStyle(
                                                           color: Colors.teal,
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w600),
                                                     )

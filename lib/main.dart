@@ -24,6 +24,7 @@ import 'screens/snacks_list.dart';
 import 'screens/snacks_list_view.dart';
 import 'screens/vegetables_list_view.dart';
 import 'screens/vegetables_view.dart';
+import 'typeahead_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
       initialRoute: MyRoutes.initialRoutes,
       routes: {
         MyRoutes.initialRoutes: (context) => const ProductOverview(),
-        // MyRoutes.initialRoutes: (context) => const TypeAheadScreen(),
+       // MyRoutes.initialRoutes: (context) => const TypeAheadScreen(),
 
         MyRoutes.overviewRoutes: (context) => const ProductOverview(),
         MyRoutes.popularViewScreenRoutes: (context) => const PopularViewScreen(),
